@@ -12,7 +12,6 @@ class PlatformWillPopScope extends StatelessWidget{
   final WillPopCallback onWillPop = () {return Future.value(false);};
 
   final EdgeInsetsGeometry paddingExternal = EdgeInsets.all(0.0);
-
   PlatformWillPopScope({
     this.key,
     this.child,
